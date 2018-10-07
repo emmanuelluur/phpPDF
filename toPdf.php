@@ -30,7 +30,7 @@ loadData($pdf,$data);
 CierraTabla($pdf);
 //send mail
 //  Descomente las siguientes dos lienas para enviar por correo *Asegurar que el servidor pueda enviar correos 
-//  $to = "-- EMAIL DESTINO --"; 
-//  Email($pdf, $to);
+//  $to = "-- DESTINO --"; 
+//  SendMail($pdf, $to);
 
 $pdf->Output();
