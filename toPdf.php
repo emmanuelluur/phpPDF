@@ -14,7 +14,7 @@ $data = array(
     array("Nombre"=>iconv('UTF-8', 'windows-1252', 'María')),
 );
 
-$pdf = new FPDF();
+$pdf = new FPDF;
 //  Nuevo documento
 $pdf->AddPage();
 //  Titulo
