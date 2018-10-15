@@ -9,7 +9,7 @@
  */
 require_once "pdf_class/fpdf.php";
 require_once "src/nombres.php";//   incluimos el archivo que devuelve los nombres
-use src\listar\Nombres;//   usamos el nombre de espacio de Nombres para poder usar la clase
+use src\nombres\Nombres;//   usamos el nombre de espacio de Nombres para poder usar la clase
 
 // variable data para los valores de la bd
 $data_bd = array();

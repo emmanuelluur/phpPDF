@@ -1,5 +1,5 @@
 <?php
-namespace src\listar;
+namespace src\nombres;
 include "connection.php"; //  incluimos la conexion
 use src\connection\Connection;  
 //  extendemos la consulta a conexion para usar las funciones 
